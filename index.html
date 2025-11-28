@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Averis's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Exo+2:wght@300;400;500;600;700&family=Audiowide&display=swap" rel="stylesheet">
+    <link href="tooplate-neural-style.css" rel="stylesheet">
+    
+<!--
+
+Tooplate 2139 Neural Portfolio
+
+https://www.tooplate.com/view/2139-neural-portfolio
+
+Free HTML CSS Template
+
+-->
+
+</head>
+<body>
+    <canvas id="neural-bg"></canvas>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-container">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Neural Network Logo -->
+                    <circle cx="50" cy="20" r="8" fill="none" stroke="#00ffff" stroke-width="2"/>
+                    <circle cx="25" cy="50" r="8" fill="none" stroke="#ff00ff" stroke-width="2"/>
+                    <circle cx="75" cy="50" r="8" fill="none" stroke="#ff00ff" stroke-width="2"/>
+                    <circle cx="50" cy="80" r="8" fill="none" stroke="#ffff00" stroke-width="2"/>
+                    
+                    <!-- Connections -->
+                    <line x1="50" y1="28" x2="25" y2="42" stroke="#00ffff" stroke-width="1" opacity="0.6"/>
+                    <line x1="50" y1="28" x2="75" y2="42" stroke="#00ffff" stroke-width="1" opacity="0.6"/>
+                    <line x1="25" y1="58" x2="50" y2="72" stroke="#ff00ff" stroke-width="1" opacity="0.6"/>
+                    <line x1="75" y1="58" x2="50" y2="72" stroke="#ff00ff" stroke-width="1" opacity="0.6"/>
+                    
+                    <!-- Center node -->
+                    <circle cx="50" cy="50" r="5" fill="#00ffff"/>
+                    <line x1="50" y1="28" x2="50" y2="45" stroke="#00ffff" stroke-width="1" opacity="0.6"/>
+                    <line x1="50" y1="55" x2="50" y2="72" stroke="#ffff00" stroke-width="1" opacity="0.6"/>
+                    <line x1="33" y1="50" x2="45" y2="50" stroke="#ff00ff" stroke-width="1" opacity="0.6"/>
+                    <line x1="55" y1="50" x2="67" y2="50" stroke="#ff00ff" stroke-width="1" opacity="0.6"/>
+                </svg>
+                <span class="logo-text">FRCRCE</span>
+            </a>
+            
+            <div class="mobile-menu-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">GOALS</a></li>
+                    <li><a href="#skills">HOBBIES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="WELCOME">Welcome</h1>
+            <p class="subtitle">Web Developer & Engineering Student</p>
+        </div>
+        <a href="#about" class="scroll-btn">
+            <div class="scroll-btn-inner">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+                </svg>
+            </div>
+        </a>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2 class="section-title">INSIDE MY DIGITAL JOURNEY</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <div class="profile-img-wrapper">
+                    
+
+                <div class="image-box">
+                 <img src="myself.jpg" alt="Averic Photo" />
+                </div>
+
+                
+                </div>
+            </div>
+            <div class="about-content">
+                <h3>START HERE </h3>
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 20px;">
+                    My self Averic 
+                    I'm a forntend developer in training, focused on mastering the engineering principles
+                    behind modern, high-performance web interfaces. I'm currently building expertise in 
+                    javascript, React, and component-driven architecture, while expanding into advanced visual 
+                    technologies such as WEBGL, Three.js and shader-based rending. 
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary);">
+                    I aim to grow into a developer capable of building sophisticated, visually dynamic web applications
+                    that merge strong engineering with cutting-edge design.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number"></div>
+                        <div class="stat-label">Always Expanding My Skills</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number"></div>
+                        <div class="stat-label">Focused on UI/UX + Frontend</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2 class="section-title">FUTURE GOALS SECTION</h2>
+        <div class="projects-grid">
+            <div class="glass-card project-card">
+                <h3 style="color: var(--primary);">Learn backend basics</h3>
+                <p style="color: var(--text-secondary);">Building strong backend basics for the future</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--secondary);">Improve UI/UX design</h3>
+                <p style="color: var(--text-secondary);">Improving UI UX skills to design better</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--accent);">Master React ecosystem</h3>
+                <p style="color: var(--text-secondary);">React skills rising</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--primary);">Work with real clients</h3>
+                <p style="color: var(--text-secondary);">Learning to work with real clients earlye streaming capabilities</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--secondary);">Contribute to open-source</h3>
+                <p style="color: var(--text-secondary);">Step by step learning open source flow</p>
+            </div>
+            <div class="glass-card project-card">
+                <h3 style="color: var(--accent);">Build a WebGL mini-game</h3>
+                <p style="color: var(--text-secondary);">Exploring WebGL by making a tiny mini-game</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2 class="section-title">HOBBIES</h2>
+        <div class="skills-container">
+            <div class="skill-node">
+                <span>Travelling</span>
+            </div>
+            <div class="skill-node">
+                <span>Gaming</span>
+            </div>
+            <div class="skill-node">
+                <span> Drawing</span>
+            </div>
+            <div class="skill-node">
+                <span> Sports</span>
+            </div>
+            <div class="skill-node">
+                <span> Reading</span>
+            </div>
+            <div class="skill-node">
+                <span> Cooking</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+    <h2 class="section-title">CONTACT</h2>
+
+    <form id="contactForm" class="contact-form glass-card">
+        <input type="hidden" name="access_key" value="650b1058-8349-4e03-a6cb-ff34cd5b0abd">
+
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="form-group">
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+
+        <button type="submit" class="neural-btn">SEND MESSAGE</button>
+    </form>
+
+    <p id="formResult" style="margin-top:10px;"></p>
+</section>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", async function(e){
+    e.preventDefault();
+
+    const form = e.target;
+    const result = document.getElementById("formResult");
+
+    const formData = new FormData(form);
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+        result.innerHTML = "Message sent successfully!";
+        result.style.color = "lime";
+        form.reset();
+    } else {
+        result.innerHTML = "Error sending message.";
+        result.style.color = "red";
+    }
+});
+</script>
+
+
+
+<script>
+    document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+    });
+</script>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Goals</a></li>
+                    <li><a href="#skills">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>INTREST IN LEARNING</h3>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">UI/UX Development</a></li>
+                    <li><a href="#">Frontend Development</a></li>
+                    <li><a href="#">Consultation</a></li>
+                </ul>
+            </div>
+            
+                <div class="footer-section">
+                    <h3 style="font-size: 1.4rem; color: #00eaff; margin-bottom: 10px;">CONNECT WITH ME</h3>
+
+                    <p style="color: var(--text-secondary); margin-bottom: 12px; font-size: 1rem;">
+                   Let's build something amazing together
+                     </p>
+
+                <div class="social-links" style="display:flex; gap:18px; margin-top:10px;">
+
+        <!-- LinkedIn -->
+                 <a href="https://www.linkedin.com/in/averic-pinto-89527a398" target="_blank" aria-label="LinkedIn"
+                 style="display:flex;align-items:center;justify-content:center;
+                  width:50px;height:50px;border:2px solid #00eaff;
+                  border-radius:50%;transition:0.3s; color:#00eaff;">
+                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                 width="22" alt="LinkedIn">
+                 </a>
+
+        <!-- Instagram -->
+        <a href="https://instagram.com/avr.ic_08" target="_blank" aria-label="Instagram"
+           style="display:flex;align-items:center;justify-content:center;
+                  width:50px;height:50px;border:2px solid #ff00ff;
+                  border-radius:50%;transition:0.3s;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+                 width="22" alt="Instagram">
+        </a>
+
+    </div>
+</div>
+
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy;Network Portfolio. All rights reserved. Provided by AVERIC  <a href="https://www.tooplate.com" rel="nofollow noopener"></a></p>
+        </div>
+    </footer>
+<script src="tooplate-neural-scripts.js"></script>
+<div class="text-container">
+  <div class="overlay"></div>
+  <p></p>
+</div>
+
+
+</body>
+</html>
